@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"> </a>
+            </a>
+            <div class="nav-link">
+                <ul>
+                    <li> <a href="index.html">home</a></li>
+                    <li> <a href="donation.html">Donation</a></li>
+                    <li> <a href="services.html">Services</a></li>
+                    <li> <a href="adopetion.html">Adopetion</a></li>
+                    <li> <a href="about-us.html">About us</a></li>
+                    <li> <a href="contact-us.html">contact us</a></li>
+                    <li> <a href="login.html">Log in</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <h1>Pet donation</h1>
+
+    </section>
+
+    <!------------money donation---------->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>Rescuing Animals: Give Pets a Second Chance Across India</h1>
+                <P>At Pet in It, we are a dedicated NGO focused on rescuing dogs, cats, and all types of animals in need. Our mission is to provide the best shelter, treatment, and care for animals, including specialized medical attention, light-reflective
+                    collars, and rabies vaccinations. We adopt only those animals in urgent need, such as those unable to coexist with others, small puppies with a 20% chance of survival, or those in life-threatening situations. Operating in Pune, Mumbai,
+                    and Punjab, we rely on donations as we have no investors, and we are committed to expanding our rescue efforts in the future to other cities like Haryana, Hyderabad, and beyond. Please help us make India a better place for animals
+                    by contributing to our cause.</P>
+
+                <a href="https://www.instagram.com/aayan_inamdar_07/" class="hero-btn red-btn">Explore Now</a>
+            </div>
+
+            <div class="about-col">
+                <img src="QR-CODE.jpg">
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="don">
+        <h1>A Lifeline for Pets: How Donating to Pet In Can Transform Lives</h1>
+        <p>Donating pets isn’t just an act of kindness—it’s a life-changing decision for these animals. Many pets, especially those born on the streets, face challenges like hunger, illness, and lack of shelter. By donating them, you give these innocent
+            lives a chance to thrive in a safe and nurturing environment. If your pets have had babies, you can entrust their future to Pet In, knowing we will provide them with the best care and adoption opportunities. Similarly, if your neighborhood
+            has stray pets or abandoned baby animals, reaching out to us ensures they won’t be left to struggle alone. Together, we can build a compassionate community where every pet has a chance to live happily and healthily. 🐾</p>
+        <br><br><br>
+        <h3>Your Generosity Can Transform Lives—Complete the Donation Form</h3>
+    </section>
+
+    <!--------------form---------->
+
+    <section>
+        <form action="donate.php" method="post">
+            <div class="form-container">
+                <h2>Pet donation</h2>
+                <!---<form action="" method="post">-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required pattern="^[A-Za-z\s]+$" title="Only alphabets and spaces allowed">
+
+                <label for="petname">Pet name:</label>
+                <input type="text" id="petname" name="petname">
+
+
+                <label for="pet bread">pet bread:</label>
+                <input type="text" id="pet bread" name="petbread">
+
+                <label for="srNo">qauntity:</label>
+                <input type="number" id="srNo" name="qauntity" min="1" max="10" required>
+
+                <label for="phone">Phone Number:</label>
+                <div style="display: flex; gap: 5px; align-items: center;">
+                    <select id="countryCode" name="countryCode" required style="width: 60px; padding: 3px; text-align: center;">
+        <option value="+1">+1</option>
+        <option value="+7">+7</option>
+        <option value="+20">+20</option>
+        <option value="+27">+27</option>
+        <option value="+30">+30</option>
+        <option value="+31">+31</option>
+        <option value="+32">+32</option>
+        <option value="+33">+33</option>
+        <option value="+34">+34</option>
+        <option value="+36">+36</option>
+        <option value="+39">+39</option>
+        <option value="+40">+40</option>
+        <option value="+41">+41</option>
+        <option value="+44">+44</option>
+        <option value="+45">+45</option>
+        <option value="+46">+46</option>
+        <option value="+47">+47</option>
+        <option value="+48">+48</option>
+        <option value="+49">+49</option>
+        <option value="+51">+51</option>
+        <option value="+52">+52</option>
+        <option value="+53">+53</option>
+        <option value="+54">+54</option>
+        <option value="+55">+55</option>
+        <option value="+56">+56</option>
+        <option value="+57">+57</option>
+        <option value="+58">+58</option>
+        <option value="+60">+60</option>
+        <option value="+61">+61</option>
+        <option value="+62">+62</option>
+        <option value="+63">+63</option>
+        <option value="+64">+64</option>
+        <option value="+65">+65</option>
+        <option value="+66">+66</option>
+        <option value="+81">+81</option>
+        <option value="+82">+82</option>
+        <option value="+84">+84</option>
+        <option value="+86">+86</option>
+        <option value="+90">+90</option>
+        <option value="+91">+91</option>
+        <option value="+92">+92</option>
+        <option value="+93">+93</option>
+        <option value="+94">+94</option>
+        <option value="+95">+95</option>
+        <option value="+98">+98</option>
+    </select>
+
+                    <input type="tel" id="phone" name="phone" required pattern="\d{10}" placeholder="10-digit number" title="Enter a 10-digit phone number" style="width: 140px;">
+                </div>
+
+
+
+
+                <label for="email">Gmail Address:</label>
+                <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@gmail\.com" title="Enter a valid Gmail address">
+
+                <label>Pet Gender:</label>
+                <input type="radio" name="gender" value="m" required> Male
+                <input type="radio" name="gender" value="f" required> Female
+
+
+                <label>which pet:</label>
+                <input type="checkbox" name="status" value="new born"> new born
+                <input type="checkbox" name="status" value="baby"> baby
+                <input type="checkbox" name="status" value="adult"> adult
+
+                <br><br>
+                <button type="submit">Submit</button>
+        </form>
+        </div>
+    </section>
+    <!-----------------footer-------->
+    <section class="footer">
+
+        <div class="icons">
+
+            <a href="https://www.instagram.com/pet_inn_2023/">
+                <i class="bx bxl-instagram"></i></a>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-github'></i>
+
+
+            <p>Made With<i class="bx bx-heart"></i>By Aayan, Vishnu, Sunny All Rights Reserved</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
